@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/queries.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Figma Landing Page</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Nav -->
+        <nav class="nav">
+            <ul class="nav__item">
+                <li><a href="#" class="nav__list">Home</a></li>
+                <li><a href="#feature" class="nav__list">Product</a></li>
+                <li><a href="#price" class="nav__list">Price</a></li>
+                <li><a href="#partner" class="nav__list">About</a></li>
+                <li><a href="#contact" class="nav__list">Contact</a></li>
+                <li>
+                    <a href="#" class="nav__logo">
+                        <img src="./img/logo.png" alt="logo" class="nav__logo">
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav__socials">
+                <li>
+                    <a href="" class="nav__socials-link">
+                        <i class="nav__socials-icon fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="nav__socials-link">
+                        <i class="nav__socials-icon fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="nav__socials-link">
+                        <i class="nav__socials-icon fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="section-hero">
+            <div class="hero">
+                <h1 class="heading-primary">The best products start with Figma</h1>
+                <p class="hero__description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+                <a href="#" class="btn">Try for free</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Feature -->
+        <section class="section-feature" id="feature">
+            <h2 class="heading-secondary text-center">Features</h2>
+            <p class="heading-tertiary text-center">
+                Most calendars are designed for teams. 
+                <br>
+                Slate is designed for freelancers
+            </p>
+            <div class="container feature-list">
+                <div class="feature-item">
+                    <img class="feature-icon" src="./img/Vector1.png" alt="">
+                    <p class="subheading">OpenType features <br>Variable fonts</p>
+                    <p class="feature-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+                <div class="feature-item">
+                    <img class="feature-icon" src="./img/Vector2.png" alt="">
+                    <p class="subheading">Design with real data</p>
+                    <p class="feature-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+                <div class="feature-item">
+                    <img class="feature-icon" src="./img/Vector2.png" alt="">
+                    <p class="subheading">OpenType features <br>Variable fonts</p>
+                    <p class="feature-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+            </div>
+            <div class="feature-img container">
+                <img src="./img/women.jpg" alt="" class="feature-img__img">
+                <div class="feature-img__icon">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="organize container grid grid-2-col">
+                <div class="organize__text-box">
+                    <h2 class="heading-secondary">Fastest way to organize</h2>
+                    <p class="heading-tertiary">Most calendars are designed for teams. Slate is designed for freelancers</p>
+                    <a href="#" class="btn">Try for free</a>
+                </div>
+                <div class="organize__img">
+                    <img src="./img/mac.png" alt="" class="organize__img-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe -->
+        <section class="section-subscribe">
+            <div class="subscribe container grid">
+                <div class="subscribe__img">
+                    <img src="./img/subs.jpg" class="subscribe__img-img" alt="">
+                </div>
+                <div class="subscribe__text-box">
+                    <p class="subheading">At your fingertips</p>
+                    <h2 class="heading-secondary subscribe__heading">Lightning fast prototyping</h2>
+                    <p class="subheading">Subscribe to our Newsletter</p>
+                    <p class="subheading-small">Available exclusivery on Figmaland</p>
+                    <div class="subscribe__input">
+                        <input type="email" class="subscribe__input-email input" placeholder="Your email">
+                        <button class="btn btn--small">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner -->
+        <section class="section-partner" id="partner">
+            <div class="partner container">
+                <h2 class="heading-secondary text-center">Partners</h2>
+                <p class="heading-tertiary text-center">
+                    Most calendars are designed for teams. 
+                    <br>
+                    Slate is designed for freelancers
+                </p>
+                <div class="partner__list">
+                    <div class="partner__item">
+                        <p class="partner__item-name">Google</p>
+                        <div class="partner__item-logo">
+                            <img class="partner__item-logo-img" src="./img/google.JPG" alt="">
+                        </div>
+                    </div>
+                    <div class="partner__item">
+                        <p class="partner__item-name">Amazon</p>
+                        <div class="partner__item-logo">
+                            <img class="partner__item-logo-img" src="./img/amazon.JPG" alt="">
+                        </div>
+                    </div>
+                    <div class="partner__item">
+                        <p class="partner__item-name">Microsoft</p>
+                        <div class="partner__item-logo">
+                            <svg class="partner__item-logo-img" version="1.1" id="MS-symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 337.6 72" style="enable-background:new 0 0 337.6 72;" xml:space="preserve">
+                            <style type="text/css">
+                            .st0{fill:#737373;}
+                            .st1{fill:#F25022;}
+                            .st2{fill:#7FBA00;}
+                            .st3{fill:#00A4EF;}
+                            .st4{fill:#FFB900;}
+                            </style>
+                            <path class="st0" d="M140.4,14.4v43.2h-7.5V23.7h-0.1l-13.4,33.9h-5l-13.7-33.9h-0.1v33.9h-6.9V14.4h10.8l12.4,32h0.2l13.1-32H140.4
+                            z M146.6,17.7c0-1.2,0.4-2.2,1.3-3c0.9-0.8,1.9-1.2,3.1-1.2c1.3,0,2.4,0.4,3.2,1.2s1.3,1.8,1.3,3c0,1.2-0.4,2.2-1.3,3
+                            c-0.9,0.8-1.9,1.2-3.2,1.2s-2.3-0.4-3.1-1.2C147.1,19.8,146.6,18.8,146.6,17.7z M154.7,26.6v31h-7.3v-31H154.7z M176.8,52.3
+                            c1.1,0,2.3-0.2,3.6-0.8c1.3-0.5,2.5-1.2,3.6-2v6.8c-1.2,0.7-2.5,1.2-4,1.5c-1.5,0.3-3.1,0.5-4.9,0.5c-4.6,0-8.3-1.4-11.1-4.3
+                            c-2.9-2.9-4.3-6.6-4.3-11c0-5,1.5-9.1,4.4-12.3c2.9-3.2,7-4.8,12.4-4.8c1.4,0,2.8,0.2,4.1,0.5c1.4,0.3,2.5,0.8,3.3,1.2v7
+                            c-1.1-0.8-2.3-1.5-3.4-1.9c-1.2-0.4-2.4-0.7-3.6-0.7c-2.9,0-5.2,0.9-7,2.8s-2.6,4.4-2.6,7.6c0,3.1,0.9,5.6,2.6,7.3
+                            C171.6,51.4,173.9,52.3,176.8,52.3z M204.7,26.1c0.6,0,1.1,0,1.6,0.1s0.9,0.2,1.2,0.3v7.4c-0.4-0.3-0.9-0.6-1.7-0.8
+                            s-1.6-0.4-2.7-0.4c-1.8,0-3.3,0.8-4.5,2.3s-1.9,3.8-1.9,7v15.6h-7.3v-31h7.3v4.9h0.1c0.7-1.7,1.7-3,3-4
+                            C201.2,26.6,202.8,26.1,204.7,26.1z M207.9,42.6c0-5.1,1.5-9.2,4.3-12.2c2.9-3,6.9-4.5,12-4.5c4.8,0,8.6,1.4,11.3,4.3
+                            s4.1,6.8,4.1,11.7c0,5-1.5,9-4.3,12c-2.9,3-6.8,4.5-11.8,4.5c-4.8,0-8.6-1.4-11.4-4.2C209.3,51.3,207.9,47.4,207.9,42.6z
+                            M215.5,42.3c0,3.2,0.7,5.7,2.2,7.4s3.6,2.6,6.3,2.6c2.6,0,4.7-0.8,6.1-2.6c1.4-1.7,2.1-4.2,2.1-7.6c0-3.3-0.7-5.8-2.1-7.6
+                            c-1.4-1.7-3.5-2.6-6-2.6c-2.7,0-4.7,0.9-6.2,2.7C216.2,36.5,215.5,39,215.5,42.3z M250.5,34.8c0,1,0.3,1.9,1,2.5
+                            c0.7,0.6,2.1,1.3,4.4,2.2c2.9,1.2,5,2.5,6.1,3.9c1.2,1.5,1.8,3.2,1.8,5.3c0,2.9-1.1,5.2-3.4,7c-2.2,1.8-5.3,2.6-9.1,2.6
+                            c-1.3,0-2.7-0.2-4.3-0.5c-1.6-0.3-2.9-0.7-4-1.2v-7.2c1.3,0.9,2.8,1.7,4.3,2.2c1.5,0.5,2.9,0.8,4.2,0.8c1.6,0,2.9-0.2,3.6-0.7
+                            c0.8-0.5,1.2-1.2,1.2-2.3c0-1-0.4-1.8-1.2-2.6c-0.8-0.7-2.4-1.5-4.6-2.4c-2.7-1.1-4.6-2.4-5.7-3.8s-1.7-3.2-1.7-5.4
+                            c0-2.8,1.1-5.1,3.3-6.9c2.2-1.8,5.1-2.7,8.6-2.7c1.1,0,2.3,0.1,3.6,0.4s2.5,0.6,3.4,0.9V34c-1-0.6-2.1-1.2-3.4-1.7
+                            c-1.3-0.5-2.6-0.7-3.8-0.7c-1.4,0-2.5,0.3-3.2,0.8C250.9,33.1,250.5,33.8,250.5,34.8z M266.9,42.6c0-5.1,1.5-9.2,4.3-12.2
+                            c2.9-3,6.9-4.5,12-4.5c4.8,0,8.6,1.4,11.3,4.3s4.1,6.8,4.1,11.7c0,5-1.5,9-4.3,12c-2.9,3-6.8,4.5-11.8,4.5c-4.8,0-8.6-1.4-11.4-4.2
+                            C268.4,51.3,266.9,47.4,266.9,42.6z M274.5,42.3c0,3.2,0.7,5.7,2.2,7.4s3.6,2.6,6.3,2.6c2.6,0,4.7-0.8,6.1-2.6
+                            c1.4-1.7,2.1-4.2,2.1-7.6c0-3.3-0.7-5.8-2.1-7.6c-1.4-1.7-3.5-2.6-6-2.6c-2.7,0-4.7,0.9-6.2,2.7C275.3,36.5,274.5,39,274.5,42.3z
+                            M322.9,32.6h-10.9v25h-7.4v-25h-5.2v-6h5.2v-4.3c0-3.2,1.1-5.9,3.2-8s4.8-3.1,8.1-3.1c0.9,0,1.7,0.1,2.4,0.1s1.3,0.2,1.8,0.4v6.3
+                            c-0.2-0.1-0.7-0.3-1.3-0.5c-0.6-0.2-1.3-0.3-2.1-0.3c-1.5,0-2.7,0.5-3.5,1.4c-0.8,0.9-1.2,2.4-1.2,4.2v3.7h10.9v-7l7.3-2.2v9.2h7.4
+                            v6h-7.4v14.5c0,1.9,0.4,3.2,1,4c0.7,0.8,1.8,1.2,3.3,1.2c0.4,0,0.9-0.1,1.5-0.3c0.6-0.2,1.1-0.4,1.5-0.7v6c-0.5,0.3-1.2,0.5-2.3,0.7
+                            c-1.1,0.2-2.1,0.3-3.2,0.3c-3.1,0-5.4-0.8-6.9-2.4c-1.5-1.6-2.3-4.1-2.3-7.4L322.9,32.6L322.9,32.6z"/>
+                            <g>
+                            <rect class="st1" width="34.2" height="34.2"/>
+                            <rect x="37.8" class="st2" width="34.2" height="34.2"/>
+                            <rect y="37.8" class="st3" width="34.2" height="34.2"/>
+                            <rect x="37.8" y="37.8" class="st4" width="34.2" height="34.2"/>
+                            </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="partner__item">
+                        <p class="partner__item-name">Facebook</p>
+                        <div class="partner__item-logo">
+                            <svg class="partner__item-logo-img" version="1.1" xmlns="http://www.w3.org/2000/svg" width="266" height="100" viewBox="0 0 266 100"
+                            overflow="visible" enable-background="new 0 0 266 100" xml:space="preserve">
+                            <g><rect fill="#3B5998" width="266" height="100"/></g>
+                            <g>
+                            <path fill="#FFFFFF" d="M140.0205078,49.5966797c-1.7841797,0-3.0703125,0.5849609-4.3740234,1.1811523v13.4858398
+                            c1.2490234,0.1191406,1.9648438,0.1191406,3.1503906,0.1191406c4.2822266,0,4.8691406-1.9609375,4.8691406-4.6992188v-6.4414062
+                            C143.6660156,51.2207031,142.9951172,49.5966797,140.0205078,49.5966797z M111.5825195,48.8608398
+                            c-2.9707031,0-3.6494141,1.6313477-3.6494141,3.6508789v1.1347656h7.2944336v-1.1347656
+                            C115.2275391,50.4921875,114.5498047,48.8608398,111.5825195,48.8608398z M56.4926758,62.8984375
+                            c0,1.5976562,0.7539062,2.4277344,2.4179688,2.4277344c1.7851562,0,2.8417969-0.5820312,4.1445312-1.1796875v-3.1992188
+                            h-3.9033203C57.3046875,60.9472656,56.4926758,61.2910156,56.4926758,62.8984375z M167.6835938,49.5966797
+                            c-2.9755859,0-4.0068359,1.6240234-4.0068359,3.6455078v7.3789062c0,2.0273438,1.03125,3.65625,4.0068359,3.65625
+                            c2.9677734,0,4.0068359-1.6289062,4.0068359-3.65625v-7.3789062
+                            C171.6904297,51.2207031,170.6513672,49.5966797,167.6835938,49.5966797z M41.9091797,71.171875h-8.7475586V49.9975586h-4.371582
+                            v-7.2963867h4.371582v-4.3808594c0-5.9526367,2.4672852-9.4921875,9.4790039-9.4921875h5.8378906v7.2978516h-3.6489258
+                            c-2.7299805,0-2.909668,1.0195312-2.909668,2.9228516l-0.0107422,3.6523438h6.6103516l-0.7734375,7.2963867h-5.8369141V71.171875
+                            z M71.8061523,71.2265625H64.515625l-0.315918-1.84375c-3.3291016,1.84375-6.300293,2.1425781-8.2602539,2.1425781
+                            c-5.3466797,0-8.1933594-3.5722656-8.1933594-8.5117188c0-5.828125,3.3208008-7.9082031,9.262207-7.9082031h6.046875v-1.2597656
+                            c0-2.9741211-0.3408203-3.8481445-4.9155273-3.8481445H50.659668l0.7314453-7.2963867h8.1762695
+                            c10.0380859,0,12.2387695,3.1708984,12.2387695,11.203125V71.2265625z M96.5991211,50.5327148
+                            c-4.5371094-0.7773438-5.8398438-0.9482422-8.0229492-0.9482422c-3.9213867,0-5.1064453,0.8652344-5.1064453,4.1948242v6.2988281
+                            c0,3.3300781,1.1850586,4.1992188,5.1064453,4.1992188c2.1831055,0,3.4858398-0.1738281,8.0229492-0.9550781v7.1171875
+                            c-3.9741211,0.890625-6.5629883,1.125-8.7514648,1.125c-9.3920898,0-13.1254883-4.9394531-13.1254883-12.0742188v-5.1113281
+                            c0-7.1411133,3.7333984-12.0888672,13.1254883-12.0888672c2.1884766,0,4.7773438,0.2353516,8.7514648,1.1298828V50.5327148z
+                            M123.9750977,59.4902344h-16.0419922v0.5878906c0,3.3300781,1.1860352,4.1992188,5.1064453,4.1992188
+                            c3.5244141,0,5.675293-0.1738281,10.2041016-0.9550781v7.1171875c-4.3676758,0.890625-6.6435547,1.125-10.9291992,1.125
+                            c-9.3925781,0-13.1279297-4.9394531-13.1279297-12.0742188v-5.84375c0-6.2426758,2.7714844-11.3564453,12.3959961-11.3564453
+                            s12.3925781,5.0541992,12.3925781,11.3564453V59.4902344z M152.4121094,59.625
+                            c0,6.8964844-1.9707031,11.9257812-13.9111328,11.9257812c-4.3115234,0-6.8408203-0.3789062-11.5996094-1.1113281V31.019043
+                            l8.7451172-1.4594727v13.7890625c1.8896484-0.7021484,4.3359375-1.0585938,6.5625-1.0585938
+                            c8.7460938,0,10.203125,3.9208984,10.203125,10.2216797V59.625z M180.4453125,59.7753906
+                            c0,5.9492188-2.4560547,11.71875-12.7324219,11.71875c-10.28125,0-12.7832031-5.7695312-12.7832031-11.71875V54.03125
+                            c0-5.9521484,2.5019531-11.7226562,12.7832031-11.7226562c10.2763672,0,12.7324219,5.7705078,12.7324219,11.7226562V59.7753906z
+                            M208.4589844,59.7753906c0,5.9492188-2.4589844,11.71875-12.7333984,11.71875
+                            c-10.28125,0-12.7832031-5.7695312-12.7832031-11.71875V54.03125c0-5.9521484,2.5019531-11.7226562,12.7832031-11.7226562
+                            c10.2744141,0,12.7333984,5.7705078,12.7333984,11.7226562V59.7753906z M237.2080078,71.171875h-9.4794922l-8.0166016-13.3828125
+                            V71.171875h-8.7480469V31.019043l8.7480469-1.4594727v25.8486328l8.0166016-12.7070312h9.4794922l-8.7519531,13.8671875
+                            L237.2080078,71.171875z M195.6962891,49.5966797c-2.9707031,0-4.0019531,1.6240234-4.0019531,3.6455078v7.3789062
+                            c0,2.0273438,1.03125,3.65625,4.0019531,3.65625c2.9667969,0,4.0166016-1.6289062,4.0166016-3.65625v-7.3789062
+                            C199.7128906,51.2207031,198.6630859,49.5966797,195.6962891,49.5966797z"/>
+                            <path fill="#FFFFFF" d="M242.2011719,66.1777344c1.4726562,0,2.6464844,1.2011719,2.6464844,2.7011719
+                            c0,1.5234375-1.1738281,2.7109375-2.6572266,2.7109375c-1.4755859,0-2.6728516-1.1875-2.6728516-2.7109375
+                            c0-1.5,1.1972656-2.7011719,2.6728516-2.7011719H242.2011719z M242.1904297,66.5976562
+                            c-1.1865234,0-2.1582031,1.0214844-2.1582031,2.28125c0,1.2832031,0.9716797,2.2910156,2.1689453,2.2910156
+                            c1.1982422,0.0117188,2.1552734-1.0078125,2.1552734-2.2792969s-0.9570312-2.2929688-2.1552734-2.2929688H242.1904297z
+                            M241.6865234,70.4511719h-0.4804688V67.4375c0.2519531-0.0351562,0.4921875-0.0703125,0.8515625-0.0703125
+                            c0.4560547,0,0.7539062,0.0957031,0.9365234,0.2265625c0.1767578,0.1328125,0.2724609,0.3359375,0.2724609,0.6230469
+                            c0,0.3984375-0.2617188,0.6367188-0.5849609,0.734375v0.0234375c0.2626953,0.0488281,0.4423828,0.2871094,0.5029297,0.7304688
+                            c0.0703125,0.46875,0.1425781,0.6484375,0.1904297,0.7460938h-0.5029297
+                            c-0.0712891-0.0976562-0.1435547-0.3730469-0.2041016-0.7695312c-0.0703125-0.3828125-0.2636719-0.5273438-0.6484375-0.5273438
+                            h-0.3330078V70.4511719z M241.6865234,68.7832031h0.3476562c0.3935547,0,0.7285156-0.1445312,0.7285156-0.5175781
+                            c0-0.2636719-0.1904297-0.5273438-0.7285156-0.5273438c-0.1572266,0-0.265625,0.0117188-0.3476562,0.0234375V68.7832031z"/>
+                            </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="partner__item">
+                        <p class="partner__item-name">Google</p>
+                        <div class="partner__item-logo">
+                            <img class="partner__item-logo-img" src="./img/google.JPG" alt="">
+                        </div>
+                    </div>
+                    <div class="partner__item">
+                        <p class="partner__item-name">Amazon</p>
+                        <div class="partner__item-logo">
+                            <img class="partner__item-logo-img" src="./img/amazon.JPG" alt="">
+                        </div>
+                    </div>
+                    <div class="partner__item">
+                        <p class="partner__item-name">Microsoft</p>
+                        <div class="partner__item-logo">
+                            <svg class="partner__item-logo-img" version="1.1" id="MS-symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 337.6 72" style="enable-background:new 0 0 337.6 72;" xml:space="preserve">
+                            <style type="text/css">
+                            .st0{fill:#737373;}
+                            .st1{fill:#F25022;}
+                            .st2{fill:#7FBA00;}
+                            .st3{fill:#00A4EF;}
+                            .st4{fill:#FFB900;}
+                            </style>
+                            <path class="st0" d="M140.4,14.4v43.2h-7.5V23.7h-0.1l-13.4,33.9h-5l-13.7-33.9h-0.1v33.9h-6.9V14.4h10.8l12.4,32h0.2l13.1-32H140.4
+                            z M146.6,17.7c0-1.2,0.4-2.2,1.3-3c0.9-0.8,1.9-1.2,3.1-1.2c1.3,0,2.4,0.4,3.2,1.2s1.3,1.8,1.3,3c0,1.2-0.4,2.2-1.3,3
+                            c-0.9,0.8-1.9,1.2-3.2,1.2s-2.3-0.4-3.1-1.2C147.1,19.8,146.6,18.8,146.6,17.7z M154.7,26.6v31h-7.3v-31H154.7z M176.8,52.3
+                            c1.1,0,2.3-0.2,3.6-0.8c1.3-0.5,2.5-1.2,3.6-2v6.8c-1.2,0.7-2.5,1.2-4,1.5c-1.5,0.3-3.1,0.5-4.9,0.5c-4.6,0-8.3-1.4-11.1-4.3
+                            c-2.9-2.9-4.3-6.6-4.3-11c0-5,1.5-9.1,4.4-12.3c2.9-3.2,7-4.8,12.4-4.8c1.4,0,2.8,0.2,4.1,0.5c1.4,0.3,2.5,0.8,3.3,1.2v7
+                            c-1.1-0.8-2.3-1.5-3.4-1.9c-1.2-0.4-2.4-0.7-3.6-0.7c-2.9,0-5.2,0.9-7,2.8s-2.6,4.4-2.6,7.6c0,3.1,0.9,5.6,2.6,7.3
+                            C171.6,51.4,173.9,52.3,176.8,52.3z M204.7,26.1c0.6,0,1.1,0,1.6,0.1s0.9,0.2,1.2,0.3v7.4c-0.4-0.3-0.9-0.6-1.7-0.8
+                            s-1.6-0.4-2.7-0.4c-1.8,0-3.3,0.8-4.5,2.3s-1.9,3.8-1.9,7v15.6h-7.3v-31h7.3v4.9h0.1c0.7-1.7,1.7-3,3-4
+                            C201.2,26.6,202.8,26.1,204.7,26.1z M207.9,42.6c0-5.1,1.5-9.2,4.3-12.2c2.9-3,6.9-4.5,12-4.5c4.8,0,8.6,1.4,11.3,4.3
+                            s4.1,6.8,4.1,11.7c0,5-1.5,9-4.3,12c-2.9,3-6.8,4.5-11.8,4.5c-4.8,0-8.6-1.4-11.4-4.2C209.3,51.3,207.9,47.4,207.9,42.6z
+                            M215.5,42.3c0,3.2,0.7,5.7,2.2,7.4s3.6,2.6,6.3,2.6c2.6,0,4.7-0.8,6.1-2.6c1.4-1.7,2.1-4.2,2.1-7.6c0-3.3-0.7-5.8-2.1-7.6
+                            c-1.4-1.7-3.5-2.6-6-2.6c-2.7,0-4.7,0.9-6.2,2.7C216.2,36.5,215.5,39,215.5,42.3z M250.5,34.8c0,1,0.3,1.9,1,2.5
+                            c0.7,0.6,2.1,1.3,4.4,2.2c2.9,1.2,5,2.5,6.1,3.9c1.2,1.5,1.8,3.2,1.8,5.3c0,2.9-1.1,5.2-3.4,7c-2.2,1.8-5.3,2.6-9.1,2.6
+                            c-1.3,0-2.7-0.2-4.3-0.5c-1.6-0.3-2.9-0.7-4-1.2v-7.2c1.3,0.9,2.8,1.7,4.3,2.2c1.5,0.5,2.9,0.8,4.2,0.8c1.6,0,2.9-0.2,3.6-0.7
+                            c0.8-0.5,1.2-1.2,1.2-2.3c0-1-0.4-1.8-1.2-2.6c-0.8-0.7-2.4-1.5-4.6-2.4c-2.7-1.1-4.6-2.4-5.7-3.8s-1.7-3.2-1.7-5.4
+                            c0-2.8,1.1-5.1,3.3-6.9c2.2-1.8,5.1-2.7,8.6-2.7c1.1,0,2.3,0.1,3.6,0.4s2.5,0.6,3.4,0.9V34c-1-0.6-2.1-1.2-3.4-1.7
+                            c-1.3-0.5-2.6-0.7-3.8-0.7c-1.4,0-2.5,0.3-3.2,0.8C250.9,33.1,250.5,33.8,250.5,34.8z M266.9,42.6c0-5.1,1.5-9.2,4.3-12.2
+                            c2.9-3,6.9-4.5,12-4.5c4.8,0,8.6,1.4,11.3,4.3s4.1,6.8,4.1,11.7c0,5-1.5,9-4.3,12c-2.9,3-6.8,4.5-11.8,4.5c-4.8,0-8.6-1.4-11.4-4.2
+                            C268.4,51.3,266.9,47.4,266.9,42.6z M274.5,42.3c0,3.2,0.7,5.7,2.2,7.4s3.6,2.6,6.3,2.6c2.6,0,4.7-0.8,6.1-2.6
+                            c1.4-1.7,2.1-4.2,2.1-7.6c0-3.3-0.7-5.8-2.1-7.6c-1.4-1.7-3.5-2.6-6-2.6c-2.7,0-4.7,0.9-6.2,2.7C275.3,36.5,274.5,39,274.5,42.3z
+                            M322.9,32.6h-10.9v25h-7.4v-25h-5.2v-6h5.2v-4.3c0-3.2,1.1-5.9,3.2-8s4.8-3.1,8.1-3.1c0.9,0,1.7,0.1,2.4,0.1s1.3,0.2,1.8,0.4v6.3
+                            c-0.2-0.1-0.7-0.3-1.3-0.5c-0.6-0.2-1.3-0.3-2.1-0.3c-1.5,0-2.7,0.5-3.5,1.4c-0.8,0.9-1.2,2.4-1.2,4.2v3.7h10.9v-7l7.3-2.2v9.2h7.4
+                            v6h-7.4v14.5c0,1.9,0.4,3.2,1,4c0.7,0.8,1.8,1.2,3.3,1.2c0.4,0,0.9-0.1,1.5-0.3c0.6-0.2,1.1-0.4,1.5-0.7v6c-0.5,0.3-1.2,0.5-2.3,0.7
+                            c-1.1,0.2-2.1,0.3-3.2,0.3c-3.1,0-5.4-0.8-6.9-2.4c-1.5-1.6-2.3-4.1-2.3-7.4L322.9,32.6L322.9,32.6z"/>
+                            <g>
+                            <rect class="st1" width="34.2" height="34.2"/>
+                            <rect x="37.8" class="st2" width="34.2" height="34.2"/>
+                            <rect y="37.8" class="st3" width="34.2" height="34.2"/>
+                            <rect x="37.8" y="37.8" class="st4" width="34.2" height="34.2"/>
+                            </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="partner__item">
+                        <p class="partner__item-name">Facebook</p>
+                        <div class="partner__item-logo">
+                            <svg class="partner__item-logo-img" version="1.1" xmlns="http://www.w3.org/2000/svg" width="266" height="100" viewBox="0 0 266 100"
+                            overflow="visible" enable-background="new 0 0 266 100" xml:space="preserve">
+                            <g><rect fill="#3B5998" width="266" height="100"/></g>
+                            <g>
+                            <path fill="#FFFFFF" d="M140.0205078,49.5966797c-1.7841797,0-3.0703125,0.5849609-4.3740234,1.1811523v13.4858398
+                            c1.2490234,0.1191406,1.9648438,0.1191406,3.1503906,0.1191406c4.2822266,0,4.8691406-1.9609375,4.8691406-4.6992188v-6.4414062
+                            C143.6660156,51.2207031,142.9951172,49.5966797,140.0205078,49.5966797z M111.5825195,48.8608398
+                            c-2.9707031,0-3.6494141,1.6313477-3.6494141,3.6508789v1.1347656h7.2944336v-1.1347656
+                            C115.2275391,50.4921875,114.5498047,48.8608398,111.5825195,48.8608398z M56.4926758,62.8984375
+                            c0,1.5976562,0.7539062,2.4277344,2.4179688,2.4277344c1.7851562,0,2.8417969-0.5820312,4.1445312-1.1796875v-3.1992188
+                            h-3.9033203C57.3046875,60.9472656,56.4926758,61.2910156,56.4926758,62.8984375z M167.6835938,49.5966797
+                            c-2.9755859,0-4.0068359,1.6240234-4.0068359,3.6455078v7.3789062c0,2.0273438,1.03125,3.65625,4.0068359,3.65625
+                            c2.9677734,0,4.0068359-1.6289062,4.0068359-3.65625v-7.3789062
+                            C171.6904297,51.2207031,170.6513672,49.5966797,167.6835938,49.5966797z M41.9091797,71.171875h-8.7475586V49.9975586h-4.371582
+                            v-7.2963867h4.371582v-4.3808594c0-5.9526367,2.4672852-9.4921875,9.4790039-9.4921875h5.8378906v7.2978516h-3.6489258
+                            c-2.7299805,0-2.909668,1.0195312-2.909668,2.9228516l-0.0107422,3.6523438h6.6103516l-0.7734375,7.2963867h-5.8369141V71.171875
+                            z M71.8061523,71.2265625H64.515625l-0.315918-1.84375c-3.3291016,1.84375-6.300293,2.1425781-8.2602539,2.1425781
+                            c-5.3466797,0-8.1933594-3.5722656-8.1933594-8.5117188c0-5.828125,3.3208008-7.9082031,9.262207-7.9082031h6.046875v-1.2597656
+                            c0-2.9741211-0.3408203-3.8481445-4.9155273-3.8481445H50.659668l0.7314453-7.2963867h8.1762695
+                            c10.0380859,0,12.2387695,3.1708984,12.2387695,11.203125V71.2265625z M96.5991211,50.5327148
+                            c-4.5371094-0.7773438-5.8398438-0.9482422-8.0229492-0.9482422c-3.9213867,0-5.1064453,0.8652344-5.1064453,4.1948242v6.2988281
+                            c0,3.3300781,1.1850586,4.1992188,5.1064453,4.1992188c2.1831055,0,3.4858398-0.1738281,8.0229492-0.9550781v7.1171875
+                            c-3.9741211,0.890625-6.5629883,1.125-8.7514648,1.125c-9.3920898,0-13.1254883-4.9394531-13.1254883-12.0742188v-5.1113281
+                            c0-7.1411133,3.7333984-12.0888672,13.1254883-12.0888672c2.1884766,0,4.7773438,0.2353516,8.7514648,1.1298828V50.5327148z
+                            M123.9750977,59.4902344h-16.0419922v0.5878906c0,3.3300781,1.1860352,4.1992188,5.1064453,4.1992188
+                            c3.5244141,0,5.675293-0.1738281,10.2041016-0.9550781v7.1171875c-4.3676758,0.890625-6.6435547,1.125-10.9291992,1.125
+                            c-9.3925781,0-13.1279297-4.9394531-13.1279297-12.0742188v-5.84375c0-6.2426758,2.7714844-11.3564453,12.3959961-11.3564453
+                            s12.3925781,5.0541992,12.3925781,11.3564453V59.4902344z M152.4121094,59.625
+                            c0,6.8964844-1.9707031,11.9257812-13.9111328,11.9257812c-4.3115234,0-6.8408203-0.3789062-11.5996094-1.1113281V31.019043
+                            l8.7451172-1.4594727v13.7890625c1.8896484-0.7021484,4.3359375-1.0585938,6.5625-1.0585938
+                            c8.7460938,0,10.203125,3.9208984,10.203125,10.2216797V59.625z M180.4453125,59.7753906
+                            c0,5.9492188-2.4560547,11.71875-12.7324219,11.71875c-10.28125,0-12.7832031-5.7695312-12.7832031-11.71875V54.03125
+                            c0-5.9521484,2.5019531-11.7226562,12.7832031-11.7226562c10.2763672,0,12.7324219,5.7705078,12.7324219,11.7226562V59.7753906z
+                            M208.4589844,59.7753906c0,5.9492188-2.4589844,11.71875-12.7333984,11.71875
+                            c-10.28125,0-12.7832031-5.7695312-12.7832031-11.71875V54.03125c0-5.9521484,2.5019531-11.7226562,12.7832031-11.7226562
+                            c10.2744141,0,12.7333984,5.7705078,12.7333984,11.7226562V59.7753906z M237.2080078,71.171875h-9.4794922l-8.0166016-13.3828125
+                            V71.171875h-8.7480469V31.019043l8.7480469-1.4594727v25.8486328l8.0166016-12.7070312h9.4794922l-8.7519531,13.8671875
+                            L237.2080078,71.171875z M195.6962891,49.5966797c-2.9707031,0-4.0019531,1.6240234-4.0019531,3.6455078v7.3789062
+                            c0,2.0273438,1.03125,3.65625,4.0019531,3.65625c2.9667969,0,4.0166016-1.6289062,4.0166016-3.65625v-7.3789062
+                            C199.7128906,51.2207031,198.6630859,49.5966797,195.6962891,49.5966797z"/>
+                            <path fill="#FFFFFF" d="M242.2011719,66.1777344c1.4726562,0,2.6464844,1.2011719,2.6464844,2.7011719
+                            c0,1.5234375-1.1738281,2.7109375-2.6572266,2.7109375c-1.4755859,0-2.6728516-1.1875-2.6728516-2.7109375
+                            c0-1.5,1.1972656-2.7011719,2.6728516-2.7011719H242.2011719z M242.1904297,66.5976562
+                            c-1.1865234,0-2.1582031,1.0214844-2.1582031,2.28125c0,1.2832031,0.9716797,2.2910156,2.1689453,2.2910156
+                            c1.1982422,0.0117188,2.1552734-1.0078125,2.1552734-2.2792969s-0.9570312-2.2929688-2.1552734-2.2929688H242.1904297z
+                            M241.6865234,70.4511719h-0.4804688V67.4375c0.2519531-0.0351562,0.4921875-0.0703125,0.8515625-0.0703125
+                            c0.4560547,0,0.7539062,0.0957031,0.9365234,0.2265625c0.1767578,0.1328125,0.2724609,0.3359375,0.2724609,0.6230469
+                            c0,0.3984375-0.2617188,0.6367188-0.5849609,0.734375v0.0234375c0.2626953,0.0488281,0.4423828,0.2871094,0.5029297,0.7304688
+                            c0.0703125,0.46875,0.1425781,0.6484375,0.1904297,0.7460938h-0.5029297
+                            c-0.0712891-0.0976562-0.1435547-0.3730469-0.2041016-0.7695312c-0.0703125-0.3828125-0.2636719-0.5273438-0.6484375-0.5273438
+                            h-0.3330078V70.4511719z M241.6865234,68.7832031h0.3476562c0.3935547,0,0.7285156-0.1445312,0.7285156-0.5175781
+                            c0-0.2636719-0.1904297-0.5273438-0.7285156-0.5273438c-0.1572266,0-0.265625,0.0117188-0.3476562,0.0234375V68.7832031z"/>
+                            </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Try for free</a>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="section-testimonial">
+            <div class="testimonial container">
+                <h2 class="heading-secondary text-center">Testimonials</h2>
+                <div class="testimonial__logo">
+                    <img src="./img/ibm.JPG" class="testimonial__logo-img" alt="">
+                </div>
+                <p class="heading-tertiary text-center">
+                    Most calendars are designed for teams. Slate is designed for freelancers 
+                    <br>who want a simple way to plan their schedule.
+                </p>
+                <div class="testimonial__item">
+                    <img class="testimonial__item-img" src="./img/men.JPG" alt="">
+                    <p class="testimonial__item-text">Organize accross <br> Ui designer</p>
+                </div>
+                <a href="#" class="btn">More Testimonials</a>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="section-price" id="price">
+            <div class="price-container container">
+                <h2 class="heading-secondary text-center text-white">Pricing</h2>
+                <p class="heading-tertiary text-center text-white">
+                    Most calendars are designed for teams. <br> Slate is designed for freelancers 
+                </p>
+                <div class="price-container--row grid grid-3-col">
+                        <div class="price__item text-center">
+                            <p class="price__item-cate">Free</p>
+                            <p class="price__item-catesub">Organize accross all <br>apps by hand</p>
+                            <div class="price__info">
+                                <p class="price__info-number">0</p>
+                                <div class="price__freq">
+                                    <p class="price__freq-ccy">$</p>
+                                    <p class="price__freq-month">Per Month</p>
+                                </div>
+                            </div>
+                            <ul class="price__list ">
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                            </ul>
+                            <a href="#" class="btn btn--small">Order Now</a>
+                        </div>
+
+                        <div class="price__item text-center">
+                            <p class="price__item-cate">Standard</p>
+                            <p class="price__item-catesub">Organize accross all <br>apps by hand</p>
+                            <div class="price__info">
+                                <p class="price__info-number">10</p>
+                                <div class="price__freq">
+                                    <p class="price__freq-ccy">$</p>
+                                    <p class="price__freq-month">Per Month</p>
+                                </div>
+                            </div>
+                            <ul class="price__list">
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                            </ul>
+                            <a href="#" class="btn btn--small">Order Now</a>
+                        </div>
+
+                        <div class="price__item text-center">
+                            <p class="price__item-cate">Business</p>
+                            <p class="price__item-catesub">Organize accross all <br>apps by hand</p>
+                            <div class="price__info">
+                                <p class="price__info-number">99</p>
+                                <div class="price__freq">
+                                    <p class="price__freq-ccy">$</p>
+                                    <p class="price__freq-month">Per Month</p>
+                                </div>
+                            </div>
+                            <ul class="price__list">
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                                <li class="price__list-detail">Pricing Feature</li>
+                            </ul>
+                            <a href="#" class="btn btn--small">Order Now</a>
+                        </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section-cta" id="contact">
+            <div class="cta container">
+                <h2 class="heading-secondary text-center">Contact Us</h2>
+                <p class="heading-tertiary text-center">
+                    Most calendars are designed for teams.<br>Slate is designed for freelancers 
+                </p>
+
+                <div class="cta__body grid">
+                    <div class="cta__input">
+                        <p class="cta__input-heading subheading">Contact Us</p>
+                        <input type="text" placeholder="Your Name" class="cta__input-name input">
+                        <input type="email" placeholder="Your Email" class="cta__input-email input">
+                        <textarea name="" class="cta__input-msg" placeholder="Your Message" cols="30" rows="10"></textarea>
+                        <button class="btn btn--small">Send</button>
+                    </div>
+                    <div class="cta__info">
+                        <div class="cta__info-address">
+                            <ul class="cta__info-item text-center">
+                                <li class="cta__info-link">
+                                    <a class="cta__info-link-detail" href="">
+                                        <i class="cta__info-icon fas fa-map-marker-alt"></i>
+                                        <p class="cta__info-text">6386 Spring St undefined Anchorage, <br>Georgia 12473 United States</p>
+                                    </a
+                                ></li>
+                                <li class="cta__info-link">
+                                    <a class="cta__info-link-detail" href="">
+                                        <i class="cta__info-icon fas fa-mobile-alt"></i>
+                                        <p class="cta__info-text">(843) 555-0130</p>
+                                    </a
+                                ></li>
+                                <li class="cta__info-link">
+                                    <a class="cta__info-link-detail" href="">
+                                        <i class="cta__info-icon fas fa-envelope"></i>
+                                        <p class="cta__info-text">willie.jennings@example.com</p>
+                                    </a
+                                ></li>
+                            </ul>
+                        </div>
+                        <div class="cta__info-img text-center">
+                            <img src="./img/map.jpg" alt="" class="cta__info-img-map">
+                        </div>
+                        <div class="cta__info-social">
+                            <a class="cta__info-social-detail" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="cta__info-social-detail" href=""><i class="fab fa-facebook-square"></i></a>
+                            <a class="cta__info-social-detail" href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__body container grid">
+            <div class="footer__item">
+                <p class="subheading footer__item-subheading text-white">Pages</p>
+                <ul class="footer__item-list">
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Home
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Product
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            About
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <p class="subheading footer__item-subheading text-white">Tomothy</p>
+                <ul class="footer__item-list">
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Eleanor Edwards
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Ted Robertson
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Annette Russell
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Jennie Mckinney
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Gloria Richards
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <p class="subheading footer__item-subheading text-white">Jane Black</p>
+                <ul class="footer__item-list">
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Philip Jones
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Product
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Colleen Russell
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Marvin Hawkins
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            Bruce Simmmons
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <ul class="footer__item-list footer__item--address">
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            <i class="fas fa-map-marker-alt"></i>
+                            7480 Mockingbird Hill undefined 
+                        </a>
+                    </li>
+                    <li class="footer__item-detail">
+                        <a href="" class="footer__item-detail-link  text-white">
+                            <i class="fas fa-mobile-alt"></i>
+                            (239) 555-0108
+                        </a>
+                    </li>
+                    <li class="footer__item-detail footer__item-detail--social">
+                        <a class="footer__item-detail-icon text-white" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="footer__item-detail-icon text-white" href=""><i class="fab fa-facebook-square"></i></a>
+                        <a class="footer__item-detail-icon text-white" href=""><i class="fab fa-linkedin"></i></a>
+                    </li>
+    
+                </ul>
+            </div>
+            
+            
+        </div>
+    </footer>
+</body>
+</html>
